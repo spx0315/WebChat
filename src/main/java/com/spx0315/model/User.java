@@ -8,13 +8,7 @@ public class User {
 
     private String password;
 
-    private String nickname;
-
-    private String avatar;
-
     private Integer type;
-
-    private Integer online;
 
     public User() {
     }
@@ -49,36 +43,12 @@ public class User {
         this.password = password;
     }
 
-    public String getNickname() {
-        return nickname;
-    }
-
-    public void setNickname(String nickname) {
-        this.nickname = nickname;
-    }
-
-    public String getAvatar() {
-        return avatar;
-    }
-
-    public void setAvatar(String avatar) {
-        this.avatar = avatar;
-    }
-
     public Integer getType() {
         return type;
     }
 
     public void setType(Integer type) {
         this.type = type;
-    }
-
-    public Integer getOnline() {
-        return online;
-    }
-
-    public void setOnline(Integer online) {
-        this.online = online;
     }
 
 }

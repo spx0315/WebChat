@@ -195,6 +195,21 @@
       <artifactId>spring-webmvc</artifactId>
       <version>4.1.4.RELEASE</version>
     </dependency>
+      <dependency>
+          <groupId>javax.servlet</groupId>
+          <artifactId>servlet-api</artifactId>
+          <version>3.0-alpha-1</version>
+      </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>3.0-alpha-1</version>
+    </dependency>
+      <dependency>
+          <groupId>commons-beanutils</groupId>
+          <artifactId>commons-beanutils</artifactId>
+          <version>1.7.0</version>
+      </dependency>
 
   </dependencies>
 
