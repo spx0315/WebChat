@@ -11,7 +11,7 @@
 <body>
 <div id="login">
     <h1>登录系统</h1>
-    <form id="submitForm">
+    <form id="submitForm" action="LoginServlet" method="post">
         <input type="text" required="required" placeholder="用户名" name="username" id="username"/>
         <br>
         <input type="password" required="required" placeholder="密码" name="password"/>

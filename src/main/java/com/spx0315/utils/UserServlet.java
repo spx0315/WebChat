@@ -1,20 +1,16 @@
-package com.spx0315.model;
+package com.spx0315.utils;
 
-import java.io.IOException;
-import java.util.Date;
-import java.util.Map;
+import com.spx0315.model.User;
+import com.spx0315.service.UserService;
+import org.apache.commons.beanutils.BeanUtils;
 
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
-import com.spx0315.BaseServlet;
-import org.apache.commons.beanutils.BeanUtils;
-
-import com.spx0315.service.UserService;
-import com.spx0315.BaseServlet;
-import com.spx0315.model.User;
+import java.io.IOException;
+import java.util.Date;
+import java.util.Map;
 
 public class UserServlet extends BaseServlet {
     /**
