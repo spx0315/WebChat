@@ -13,10 +13,8 @@ public class BaseServlet  extends HttpServlet {
         req.setCharacterEncoding("UTF-8");
         res.setContentType("text/html;charset=utf-8");
 
-        // 例如：http://localhost:8080/demo1/xxx?method=login
         String methodName = req.getParameter("method");// 它是一个方法名称
 
-        // 当没用指定要调用的方法时，那么默认请求的是execute()方法。
         if(methodName == null || methodName.isEmpty()) {
             methodName = "execute";
         }
