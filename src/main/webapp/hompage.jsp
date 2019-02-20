@@ -13,12 +13,8 @@
 </head>
 <body>
 <form action="" method="post">
-    <input name="userName" type="text" />
-    <br/>
-    <input name="password" type="password"/>
-    <br/>
-    <input id="submitButton"  type="submit" value="登录" align="center" onclick="javascript:this.form.action='login.html'"/>
-    <input id="registerButton" type="submit" value="注册" align="center" onclick="javascript:this.form.action='register.html'"/>
+    <input id="submitButton"  type="submit" value="登录" align="center" onclick="javascript:this.form.action='login.jsp'"/>
+    <input id="registerButton" type="submit" value="注册" align="center" onclick="javascript:this.form.action='register.jsp'"/>
 </form>
 </body>
 </html>
