@@ -5,5 +5,6 @@
 </head>
 <body>
         This is a Javaweb Chatroom.
+        <a href="hompage.jsp">点击登陆</a>
 </body>
 </html>

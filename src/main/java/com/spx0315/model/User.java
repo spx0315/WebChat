@@ -1,15 +1,8 @@
 package com.spx0315.model;
 
-import javax.servlet.http.HttpSessionBindingEvent;
-import javax.servlet.http.HttpSessionBindingListener;
-import java.util.Map;
-
-
 public class User {
 
     private Integer id;
-
-    private String uid;
 
     private String username;
 
@@ -23,14 +16,12 @@ public class User {
 
     private Integer online;
 
-    private String serviceat;
-
     public User() {
     }
 
-    public User(String uid, String username) {
+    public User(int id, String username) {
         super();
-        this.uid = uid;
+        this.id = id;
         this.username = username;
     }
 
@@ -40,14 +31,6 @@ public class User {
 
     public void setId(Integer id) {
         this.id = id;
-    }
-
-    public String getUid() {
-        return uid;
-    }
-
-    public void setUid(String uid) {
-        this.uid = uid;
     }
 
     public String getUsername() {
@@ -98,11 +81,4 @@ public class User {
         this.online = online;
     }
 
-    public String getServiceat() {
-        return serviceat;
-    }
-
-    public void setServiceat(String serviceat) {
-        this.serviceat = serviceat;
-    }
 }
